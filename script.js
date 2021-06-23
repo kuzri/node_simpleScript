@@ -51,11 +51,11 @@ fs.readdir('test') //
         )
         .catch(console.error);
       }
-
       // -> 수정된 파일만(E) duplicated
       break;
-      // default: console.log(item);
-      // break;
+
+        default: console.log(item);
+        break;
     }})
     )
   .catch(console.error);
